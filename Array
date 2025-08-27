@@ -1,0 +1,28 @@
+import array
+print("Hello world!")
+# Creating one dimensional array
+student_score = [70,80,85,90,100]
+# Creating two dimensional array
+arr = (
+    [
+        [1,2,3],
+        [4,5,6],
+        [7,8,9]
+    ]
+)
+print(arr)
+# Basic operation on array
+# Access by index
+
+random = array.array('i',[3,7,1,2,9])
+print(random[0])
+# Accessing from the end using negative index
+print(random[-1])
+# Sliding to access subsets
+print(random[1:3])
+# Iterating through array
+for number in random:
+    print(number, end="")
+# using index method
+# number_one = .index(0)
+# print(number_one)
