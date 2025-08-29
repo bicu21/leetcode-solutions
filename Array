@@ -26,3 +26,16 @@ for number in random:
 # using index method
 # number_one = .index(0)
 # print(number_one)
+# Creating an array using a list
+arr = [1, 2, 3, 4, 5]
+
+# Accessing elements
+print(arr[0])  # Output: 1
+
+# Adding an element
+arr.append(6)
+
+# Iterating over the array
+for element in arr:
+    print(element)
+
