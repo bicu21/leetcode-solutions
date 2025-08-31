@@ -1,0 +1,23 @@
+# Creating a list
+fruits = ['apple', 'banana', 'cherry']
+
+# Accessing elements (index starts at 0)
+print(fruits[0])  # Output: apple
+
+# Adding an item to the end of the list
+fruits.append('date')
+print(fruits)  # Output: ['apple', 'banana', 'cherry', 'date']
+
+# Removing an item by its value
+fruits.remove('banana')
+print(fruits)  # Output: ['apple', 'cherry', 'date']
+
+# Inserting an item at a specific index
+fruits.insert(1, 'avocado')
+print(fruits)  # Output: ['apple', 'avocado', 'cherry', 'date']
+
+# Getting the length of the list
+print(len(fruits))  # Output: 4
+
+# Accessing last element using negative index
+print(fruits[-1])  # Output: date
