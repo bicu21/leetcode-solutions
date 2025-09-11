@@ -1,0 +1,11 @@
+import sys
+
+
+"""
+sys.stdin.readline() = used to reads a whole line from standard input.
+map = converts each substring in the list  into an integer.
+When to use Fast input sys.stdin.readline  = We use this when the input size is very large.
+
+"""
+# Exercise 
+n = int(sys.stdin.readline().strip())
